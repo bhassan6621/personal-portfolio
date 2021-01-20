@@ -15,13 +15,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
+          <Header /> 
+          <AboutMe /> 
+          <Skills /> 
+          <Projects /> 
+          <Contact /> 
       </div>
+
     );
   }
 }
+
 export default App;
