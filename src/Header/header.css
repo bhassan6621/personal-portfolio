@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.header {
+    background-image: url("https://newevolutiondesigns.com/images/freebies/city-wallpaper-11.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav-bar {
+    overflow: hidden;
+    height: 80px;
+    display: inline-block;
+}
+
+.nav-bar a {
+    padding: 14px 150px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Abril Fatface';
+    font-weight: bold;
+    color: black;
+}
+
+.nav-bar a:hover {
+    color: #00afb9;
+}
+
+.slogan {
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    color: #646362;
+}
