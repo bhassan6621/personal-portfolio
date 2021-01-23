@@ -9,13 +9,10 @@ class Header extends Component {
                 <div className="logo">
                     <img src={logo} />
                 </div>
-                <div className="nav-bar">
-                    <a href="#aboutMe">about.</a>
-                    <a href="#projects">projects.</a>
-                    <a href="#skills">skills.</a>
-                </div>
-                <div className="slogan">
-                    <h2>Pro·gram·mer (n) An organism that turns caffeine into code.</h2>
+                <div className="nav-sections">
+                    <a href="#aboutMe">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
                 </div>
             </div>
         );
