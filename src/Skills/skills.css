@@ -65,7 +65,7 @@
 
 .progress span {
   height: 100%;
-  background: cyan;
+  background: #00afb9;
   border-radius: 10px;
   position: absolute;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
