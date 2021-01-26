@@ -5,9 +5,9 @@ class Projects extends Component {
   render() {
     let projects = {
       0: {
-        title: "AutoDiff",
+        title: "MyAutoDiff",
         text:
-          "Build a compact library that helps you computer high order derivaties in python.",
+          "Python library that helps compute high order derivatives.",
         img: "https://picsum.photos/180/180"
       },
       1: {
@@ -18,7 +18,7 @@ class Projects extends Component {
       2: {
         title: "Tweetie",
         text:
-          "Open source Messenger App that encrypts all your messages locally",
+          "Open source Messenger App that encrypts your messages locally",
         img: "https://picsum.photos/180/180"
       },
       3: {
