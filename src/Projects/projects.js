@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import  ProjectCard from "./projectCard";
+import ProjectCard from "./projectCard";
 import { CardDeck } from "react-bootstrap";
 class Projects extends Component {
   render() {
@@ -28,22 +28,27 @@ class Projects extends Component {
       }
     };
 
-    let projectCards;
+    let projectCards = Object.values(projects).map((project) => (
+      <ProjectCard
+        title={project.title}
+        text={project.text}
+        img={project.img}
+      />
+    ));
 
-    if (this.props.projectCards) {
-      projectCards = Object.values(projects).map((project) => (
-        <ProjectCard
-          title={project.title}
-          text={project.text}
-          img={project.img}
-        />
-      ));
-    }
-
+    console.log(projectCards.length);
     return (
       <div className="projects">
         <h1> projects </h1>
-        <CardDeck>{projectCards}</CardDeck>
+        <CardDeck
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center"
+          }}
+        >
+          {projectCards}
+        </CardDeck>
       </div>
     );
   }
