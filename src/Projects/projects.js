@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./projectCard";
-import { CardDeck } from "react-bootstrap";
+import { CardGroup } from "react-bootstrap";
+
 class Projects extends Component {
   render() {
     let projects = {
@@ -8,23 +9,23 @@ class Projects extends Component {
         title: "MyAutoDiff",
         text:
           "Python library that helps compute high order derivatives.",
-        img: "https://picsum.photos/180/180"
+        img: require("./images/computational_graph.jpg")
       },
       1: {
         title: "React JS Website",
         text: "Learn how you can build you own personal react js website!",
-        img: "https://picsum.photos/180/180"
+        img: require("./images/react_logo.jpg")
       },
       2: {
         title: "Tweetie",
         text:
           "Open source Messenger App that encrypts your messages locally",
-        img: "https://picsum.photos/180/180"
+        img: require("./images/msg_bubble.jpg")
       },
       3: {
         title: "Space Invaders",
         text: " Javascript implementation of the classic game, Space Invaders.",
-        img: "https://picsum.photos/180/180"
+        img: require("./images/space_invaders.png")
       }
     };
 
@@ -40,7 +41,7 @@ class Projects extends Component {
     return (
       <div className="projects">
         <h1> projects </h1>
-        <CardDeck
+        <CardGroup
           style={{
             display: "flex",
             flexDirection: "row",
@@ -48,7 +49,7 @@ class Projects extends Component {
           }}
         >
           {projectCards}
-        </CardDeck>
+        </CardGroup>
       </div>
     );
   }

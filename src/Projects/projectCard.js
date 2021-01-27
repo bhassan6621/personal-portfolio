@@ -5,9 +5,12 @@ import { FaGithub } from "react-icons/fa";
 
 class ProjectCard extends Component {
   render() {
+    let cardStyle = {
+      padding: 10
+    };
     return (
-      <div>
-        <Card className="z-depth-5" style={{ width: "18rem", flex: 1}}>
+      <div style={cardStyle}>
+        <Card className="z-depth-5" style={{ width: "18rem", flex: 1 }}>
           <Card.Img variant="top" src={this.props.img} />
           <Card.Body>
             <Card.Title>{this.props.title}</Card.Title>
