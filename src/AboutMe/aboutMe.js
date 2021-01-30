@@ -12,7 +12,6 @@ class AboutMe extends Component {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
               <h1 className="greeting-text">Hi all 👋 I'm John Doe</h1>
               <p className="greeting-text-p subTitle">
                 I am currently a Senior at Queens College in NYC. I was born and
@@ -31,7 +30,6 @@ class AboutMe extends Component {
                   See My Resume
                 </Button>
               </div>
-            </div>
           </div>
           <div className="greeting-image-div">
             <img alt="man sitting" src={manSit} />
@@ -43,21 +41,11 @@ class AboutMe extends Component {
           <div className="software-skills-main-div">
             <ul className="dev-icons">
               <li className="software-skill-inline">
-                <i>
-                  <FaHtml5 />
-                </i>
-                <i>
-                  <FaCss3Alt />
-                </i>
-                <i>
-                  <FaPython />
-                </i>
-                <i>
-                  <FaJava />
-                </i>
-                <i>
-                  <SiCplusplus />
-                </i>
+                <i><FaHtml5 /></i>
+                <i><FaCss3Alt /></i>
+                <i><FaPython /></i>
+                <i><FaJava /></i>
+                <i><SiCplusplus /></i>
               </li>
             </ul>
           </div>
