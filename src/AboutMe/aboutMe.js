@@ -10,7 +10,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="greet-main" id="greeting">
-        <div className="greeting-main">
+        <div className="greeting-main" id="aboutMe">
           <div className="greeting-text-div">
               <h1 className="greeting-text">Hi all 👋 I'm John Doe</h1>
               <p className="greeting-text-p subTitle">

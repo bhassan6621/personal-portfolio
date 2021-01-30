@@ -39,7 +39,7 @@ class Projects extends Component {
 
     console.log(projectCards.length);
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <h1> projects </h1>
         <CardGroup
           style={{
