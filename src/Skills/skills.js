@@ -14,7 +14,7 @@ class Skills extends Component {
                         <div className = "info">
                             <span>HTML/CSS</span>
                         </div>
-                        <div className = "progress web">
+                        <div className = "progress-bar web">
                             <span></span>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ class Skills extends Component {
                         <div className = "info">
                             <span>Java</span>
                         </div>
-                        <div className = "progress java">
+                        <div className = "progress-bar java">
                             <span></span>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ class Skills extends Component {
                         <div className = "info">
                             <span>Python</span>
                         </div>
-                        <div className = "progress python">
+                        <div className = "progress-bar python">
                             <span></span>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ class Skills extends Component {
                         <div className = "info">
                             <span>C++</span>
                         </div>
-                        <div className = "progress cplusplus">
+                        <div className = "progress-bar cplusplus">
                             <span></span>
                         </div>
                     </div>

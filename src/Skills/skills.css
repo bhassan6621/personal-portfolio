@@ -7,19 +7,23 @@
   text-align: left;
 }
 
-.progress.web span {
+.progress-bar {
+  overflow: visible;
+}
+
+.progress-bar.web span {
   width: 80%;
 }
 
-.progress.java span {
+.progress-bar.java span {
   width: 60%;
 }
 
-.progress.python span {
+.progress-bar.python span {
   width: 40%;
 }
 
-.progress.cplusplus span {
+.progress-bar.cplusplus span {
   width: 30%;
 }
 
@@ -46,7 +50,7 @@
   font-weight: 500;
 }
 
-.skills-section .bar .progress {
+.skills-section .bar .progress-bar {
   height: 13px;
   border-radius: 10px;
   width: 100%;
@@ -63,7 +67,7 @@
   }
 }
 
-.progress span {
+.progress-bar span {
   height: 100%;
   background: #00afb9;
   border-radius: 10px;
@@ -73,10 +77,10 @@
   transform-origin: left;
 }
 
-.bar .progress span::before {
+.bar .progress-bar span::before {
   position: absolute;
   right: 0;
-  top: -10px;
+  top: -28px;
   height: 0;
   width: 0;
   border: 7px solid transparent;
@@ -86,7 +90,7 @@
   background: black;
 }
 
-.bar .progress span::after {
+.bar .progress-bar span::after {
   position: absolute;
   right: 0;
   top: -28px;
@@ -98,18 +102,18 @@
   border-radius: 3px;
 }
 
-.bar .progress.web span::after {
+.bar .progress-bar.web span::after {
   content: "80%";
 }
 
-.bar .progress.java span::after {
+.bar .progress-bar.java span::after {
   content: "60%";
 }
 
-.bar .progress.python span::after {
+.bar .progress-bar.python span::after {
   content: "40%";
 }
 
-.bar .progress.cplusplus span::after {
+.bar .progress-bar.cplusplus span::after {
   content: "30%";
 }
