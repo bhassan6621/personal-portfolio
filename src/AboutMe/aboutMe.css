@@ -1,111 +1,46 @@
-.main {
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 4rem;
-  }
-  .greet-main{
-    width: 90%;
-    padding: 20px 10px;
-    margin: 0px auto;
-    margin-top: 2rem;
-  }
-  
-  
-  .greeting-main {
-    display: flex;
-  }
-  
-  .greeting-main > * {
-    flex: 1;
-    margin-bottom: 30px;
-  }
-  
-  .greeting-text {
-    font-size: 70px;
-    line-height: 1.1;
-  }
-  
-  .greeting-text-p {
-    font-size: 30px;
-    line-height: 40px;
-    /* margin-left: 175px;
-    margin-right: 175px;  */
-  }
-  
-  .greeting-image-div > img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .subTitle{
-    color: rgb(117, 117, 117);
-  }
-  .button-greeting-div{
-    margin-top: 20px;
-  }
-  
-  
-  .dev-icons {
-    list-style: none;
-    font-size: 3rem;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    text-align: center;
-    
-  }
-  
-  .software-skill-inline {
-    display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 30px;
-  }
-  
-  .software-skill-inline > i{
-    color: #868e96;
-    margin: 5px;
-  }
-  
-  .software-skill-inline > i:hover {
-    color: #007BFF;
-  }
-  
-  .skills-heading {
-    font-size: 56px;
-    font-weight: 400;
-  }
-  .skills-text-subtitle {
-    font-size: 20px;
-    text-align: center;
-  }
-  /* Media Query */
-  @media (max-width: 1380px) {
-    .greeting-text {
-      font-size: 50px;
-    }
-    .greeting-text-p {
-      font-size: 20px;
-    }
-  }
-  @media (max-width: 768px) {
-    .button-greeting-div{
-      justify-content: space-around;
-    }
-    .greeting-text {
-      font-size: 30px;
-      text-align: center;
-    }
-    .greeting-text-p {
-      font-size: 16px;
-      line-height: normal;
-      text-align: center;
-    }
-    .greeting-main {
-      display: block;
-    }
-    .skills-text-subtitle {
-      font-size: 16px;
-      text-align: center;
-    }
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+.aboutMe-section {
+  background-color: white;
+  font-family: 'Benne', serif;
+}
+.short-bio {
+  display: flex;
+  margin-bottom: 30px;
+}
+.short-bio > * {
+  text-align: center;
+  flex: 1;
+  line-height: 1.2;
+}
+.short-bio-text {
+  padding: 100px 30px;
+} 
+.short-bio-text > h1 {
+  background-image: url(./brushstrokeP.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 50px;
+  height: 180px;
+  padding: 80px;
+}
+.short-bio-text > p {
+  font-size: 20px;
+}
+.short-bio-img {
+  padding-top: 40px;
+  max-width: 100%;
+}
+.dev-icons {
+  font-size: 2.5rem;
+  margin-top: 10%; 
+}
+/* selects all elements except p */
+.dev-icons > * :not(p){
+  color: #868e96;
+  margin: 5px;
+}
+.dev-icons-subTitle {
+  font-size: 20px;
+}

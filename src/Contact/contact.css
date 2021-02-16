@@ -1,0 +1,36 @@
+.contact {
+    color:white;
+    height: 400px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 62%, rgba(0,0,0,1) 100%);
+    padding: 70px 50px;
+}
+.contact > p {
+    line-height: 1.5;
+    width : 50%;
+    margin-bottom: 30px;
+}
+.contact > h1 {
+    margin-bottom: 40px;
+}
+.contact-btn {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+    margin: 30px 0 10px 50px;
+}
+.footer > h1 {
+    font-size: 35px;
+}
+.info {
+    display: flex;
+}
+.info > p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 100px;
+}

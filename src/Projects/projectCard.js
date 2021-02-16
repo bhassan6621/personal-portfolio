@@ -5,21 +5,30 @@ import { FaGithub } from "react-icons/fa";
 
 class ProjectCard extends Component {
   render() {
-    let cardStyle = {
-      padding: 10
+    let cardDivStyle = {
+      padding: 20,
+      flex: 1
     };
+    let imgStyle = {
+      height: "200px",
+      boxShadow: "2px 2px 2px grey"
+    }
+
+
     return (
-      <div style={cardStyle}>
-        <Card className="z-depth-5" style={{ width: "18rem", flex: 1 }}>
-          <Card.Img variant="top" src={this.props.img} />
-          <Card.Body>
-            <Card.Title>{this.props.title}</Card.Title>
-            <Card.Text>{this.props.text}</Card.Text>
-            <Button variant="">
-              <FaGithub />{" "}
-            </Button>
-          </Card.Body>
+      <div style={cardDivStyle} >
+        <Card >
+          <Card.Img variant="top" style={imgStyle} src={this.props.img} />
         </Card>
+
+        <Card.Body>
+          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Text>{this.props.text}</Card.Text>
+          <Button variant=""> 
+            <FaGithub />  
+          </Button>
+        </Card.Body>  
+
       </div>
     );
   }
