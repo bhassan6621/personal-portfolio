@@ -9,8 +9,8 @@ import "./project.css";
 
 class Projects extends Component {
   render() {
-    // Code goes here
-    // Original Code is in projects_orig.js
+    // CODE GOES HER
+    // ORIGINAL CODE IS IN projects_orig.js
   }
 }
 
