@@ -3,10 +3,13 @@ import React, { Component } from "react";
 import "./header.css";
 
 class Header extends Component {
+    // Original code in header_orig.js
+
   render() {
-    //     /* CODE GOES HERE */
-    //     /* /* Original code in header_orig.js*/ */
-  }
+    return (
+      <div></div>
+    );
+   }
 }
 
 export default Header;
