@@ -2,10 +2,12 @@ import React, { Component } from "react";
 
 import "./skills.css";
 class Skills extends Component {
+  // ORIGINAL CODE IN skills_orig.js
+  
   render() {
-    // CODE HERE
-    // ORIGINAL CODE IN skills_orig.js
-  }
+    return (
+      <div></div>
+    );
+   }
 }
-
 export default Skills;
