@@ -7,10 +7,13 @@ import { FaHtml5, FaCss3Alt, FaPython, FaJava } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
 
 class AboutMe extends Component {
+     //Original code can be found in aboutMe_orig.js */
+
   render() {
-    /* Remove this and put code on next line, 
-          Original code can be found in aboutMe_orig.js */
-  }
+    return (
+      <div></div>
+    );
+   }
 }
 
 export default AboutMe;
