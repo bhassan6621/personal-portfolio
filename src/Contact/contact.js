@@ -2,10 +2,13 @@ import React, { Component } from "react";
 import "./contact.css";
 
 class Contact extends Component {
+  // Original code can be found in contact_orig.js :) 
+  
   render() {
-    /* // CODE GOES HERE
-    // Original code can be found in contact_orig.js :) */
-  }
+    return (
+      <div></div>
+    );
+   }
 }
 
 export default Contact;
