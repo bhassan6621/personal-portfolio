@@ -8,10 +8,13 @@ import space_invaders from "./images/space_invaders.png";
 import "./project.css";
 
 class Projects extends Component {
+  // Original Code is in projects_orig.js
+
   render() {
-    // Code goes here
-    // Original Code is in projects_orig.js
-  }
+    return (
+      <div></div>
+    );
+   }
 }
 
 export default Projects;
